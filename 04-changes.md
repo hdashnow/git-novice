@@ -5,7 +5,7 @@ subtitle: Tracking Changes
 minutes: 20
 ---
 > ## Learning Objectives {.objectives}
-> 
+>
 > *   Go through the modify-add-commit cycle for a single file.
 > *   Explain where information is stored at each stage of Git commit workflow.
 
@@ -413,21 +413,22 @@ repository (`git commit`):
 
 > ## Choosing a commit message {.challenge}
 >
-> Which of the following commit messages would be most appropriate for the 
+> Which of the following commit messages would be most appropriate for the
 > last commit made to `mars.txt`?
-> 
-> 1. 
+>
+> 1.
 >
 >     "Changes"
-> 2. 
+> 2.
 >
 >     "Added line 'But the Mummy will appreciate the lack of humidity' to mars.txt"
-> 3. 
+> 3.
 >
 >     "Discuss effects of Mars' climate on the Mummy"
 
 > ## Committing Changes to Git {.challenge}
 >
+> Imagine I have a file `myfile.txt` that is already being tracked by git. I edit this file.
 > Which command(s) below would save the changes of `myfile.txt` to my local Git repository?
 >
 > 1. 
@@ -435,19 +436,19 @@ repository (`git commit`):
 >     ~~~
 >     $ git commit -m "my recent changes"
 >     ~~~
-> 2. 
+> 2.
 >
 >     ~~~
 >     $ git init myfile.txt
 >     $ git commit -m "my recent changes"
 >     ~~~
-> 3. 
+> 3.
 >
 >     ~~~
 >     $ git add myfile.txt
 >     $ git commit -m "my recent changes"
 >     ~~~
-> 4. 
+> 4.
 >
 >     ~~~
 >     $ git commit -m myfile.txt "my recent changes"
